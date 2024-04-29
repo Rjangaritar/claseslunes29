@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Car(make, model) {
+  this.make = make;
+  this.model = model;
+}
+
+const myCar = new Car("Toyota", "Corolla");
+
+console.log("myCar es una instancia de Car: " + (myCar instanceof Car));
+
+const arr = [];
+const str = "Hola";
+
+console.log("arr es un array: " + Array.isArray(arr));
+console.log("Tipo de arr: " + typeof arr);
+console.log("Tipo de str: " + typeof str);
+    </script>
+</body>
+</html>

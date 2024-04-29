@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+let globalVar = 10;
+function myFunction() {
+    let localVar = 20;
+  console.log("Valor de globalVar dentro de la función: ", globalVar);
+  console.log("Valor de localVar dentro de la función: ", localVar);
+}
+myFunction();
+console.log("Valor de globalVar fuera de la función: ", globalVar);
+console.log("Valor de localVar fuera de la función: ", localVar);
+  </script>
+</body>
+</html>
